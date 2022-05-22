@@ -11,9 +11,9 @@ return [
     | has failed, such as for an invalid token or invalid new password.
     |
     */
-    'password' => 'Passwords must be at least six characters and match the confirmation.',
-    'reset' => 'Your password has been reset!',
-    'sent' => 'We have e-mailed your password reset link!',
-    'token' => 'This password reset token is invalid.',
-    'user' => "We can't find a user with that e-mail address.",
+    'password' => 'Passordet må være på minst seks tegn, og samsvare med bekreftelsen.',
+    'reset' => 'Passordet ditt har blitt tilbakestilt!',
+    'sent' => 'Vi har sendt lenken for tilbakestilling av passordet ditt på e-post!',
+    'token' => 'Koden for tilbakestilling av passordet ditt er ugyldig.',
+    'user' => "Vi kan ikke finne en bruker med den e-postadressen.",
 ];
