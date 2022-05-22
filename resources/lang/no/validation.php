@@ -12,9 +12,9 @@ return [
     |
     */
 
-    'accepted' => 'The :attribute must be accepted.',
-    'active_url' => 'The :attribute is not a valid URL.',
-    'after' => 'The :attribute must be a date after :date.',
+    'accepted' => ':attribute må bli godkjent.',
+    'active_url' => ':attribute er ikke en gyldig URL-adresse.',
+    'after' => ':attribute må være en dato etter :date.',
     'after_or_equal' => 'The :attribute must be a date after or equal to :date.',
     'alpha' => 'The :attribute may only contain letters.',
     'alpha_dash' => 'The :attribute may only contain letters, numbers, and dashes.',
@@ -45,7 +45,7 @@ return [
     'in' => 'The selected :attribute is invalid.',
     'in_array' => 'The :attribute field does not exist in :other.',
     'integer' => 'The :attribute must be an integer.',
-    'ip' => 'The :attribute must be a valid IP address.',
+    'ip' => ':attribute må være en gyldig IP-adresse.',
     'json' => 'The :attribute must be a valid JSON string.',
     'max' => [
         'numeric' => 'The :attribute may not be greater than :max.',
@@ -64,7 +64,7 @@ return [
     'not_in' => 'The selected :attribute is invalid.',
     'numeric' => 'The :attribute must be a number.',
     'present' => 'The :attribute field must be present.',
-    'regex' => 'The :attribute format is invalid.',
+    'regex' => 'Formatet til :attribute er ugyldig.',
     'required' => 'The :attribute field is required.',
     'required_if' => 'The :attribute field is required when :other is :value.',
     'required_unless' => 'The :attribute field is required unless :other is in :values.',
@@ -74,16 +74,16 @@ return [
     'required_without_all' => 'The :attribute field is required when none of :values are present.',
     'same' => 'The :attribute and :other must match.',
     'size' => [
-        'numeric' => 'The :attribute must be :size.',
-        'file' => 'The :attribute must be :size kilobytes.',
-        'string' => 'The :attribute must be :size characters.',
-        'array' => 'The :attribute must contain :size items.',
+        'numeric' => ':attribute må være :size.',
+        'file' => ':attribute må være :size kilobytes.',
+        'string' => ':attribute må være :size tegn.',
+        'array' => ':attribute må inneholde :size ting.',
     ],
     'string' => 'The :attribute must be a string.',
     'timezone' => 'The :attribute must be a valid zone.',
-    'unique' => 'The :attribute has already been taken.',
-    'uploaded' => 'The :attribute failed to upload.',
-    'url' => 'The :attribute format is invalid.',
+    'unique' => ':attribute er allerede i bruk.',
+    'uploaded' => ':attribute kunne ikke lastes opp',
+    'url' => 'The :attribute -formatet er ugyldig',
 
     /*
     |--------------------------------------------------------------------------
@@ -101,6 +101,6 @@ return [
     // Internal validation logic for Pterodactyl
     'internal' => [
         'variable_value' => ':env variable',
-        'invalid_password' => 'The password provided was invalid for this account.',
+        'invalid_password' => 'Passordet som ble oppgitt var ugyldig for denne kontoen.',
     ],
 ];
